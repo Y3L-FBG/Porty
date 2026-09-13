@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-stripes {
+    background-image: repeating-linear-gradient(
+      90deg,
+      theme("colors.pink.light") 0px,
+      theme("colors.pink.light") 40px,
+      theme("colors.pink.DEFAULT") 40px,
+      theme("colors.pink.DEFAULT") 80px
+    );
+  }
+}
