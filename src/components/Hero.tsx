@@ -40,7 +40,7 @@ export default function Hero() {
       <div className="relative h-52 w-52 flex-shrink-0 sm:h-64 sm:w-64 md:h-72 md:w-72">
         <div className="absolute inset-0 rounded-blob bg-yellow" />
         <img
-          src="/images/portrait.jpg"
+          src="./screenshot.png"
           alt="Portrait"
           className="relative h-full w-full rounded-blob object-cover"
           onError={(e) => {
